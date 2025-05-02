@@ -64,6 +64,5 @@ int main()
 	//Display the message
 	cout << "Receipt generated successfully in receipt.txt" << endl;
 
-
     return 0;
 }
