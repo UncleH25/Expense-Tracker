@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="Expense Tracker.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="expenses.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -1,0 +1,4 @@
+Groceries 425.75
+insurance 5000.00
+Transport 120.00
+Data 200.50
