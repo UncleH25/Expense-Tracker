@@ -19,5 +19,12 @@ int main()
 	string category;
 	double amount;
 
+	//Check if the file opened successfully or exists
+	if (!inData)
+	{
+		cout << "Error opening file." << endl;
+		return 1;
+	}
+
     return 0;
 }
