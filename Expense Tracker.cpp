@@ -57,6 +57,13 @@ int main()
 	outData << left << setw(15) << "Total Expense: "
 			<< right << setw(10) << totalExpense << endl;
 
+	//Close the files
+	inData.close();
+	outData.close();
+
+	//Display the message
+	cout << "Receipt generated successfully in receipt.txt" << endl;
+
 
     return 0;
 }
