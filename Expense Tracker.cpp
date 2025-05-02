@@ -52,6 +52,11 @@ int main()
 			<< setw(10) << total << endl;
 	}
 
+	//Display the total expense
+	outData << string(45, '-') << endl;
+	outData << left << setw(15) << "Total Expense: "
+			<< right << setw(10) << totalExpense << endl;
+
 
     return 0;
 }
