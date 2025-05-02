@@ -14,7 +14,10 @@ int main()
 	fstream inData("expenses.txt", ios::in);
 	//Create a file called receipt.txt and write the data in it
 	ofstream outData("receipt.txt", ios::out);
-    
+
+	//Variables
+	string category;
+	double amount;
 
     return 0;
 }
