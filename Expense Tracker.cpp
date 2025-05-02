@@ -37,6 +37,21 @@ int main()
 	//Variable to store total expense amount
 	double totalExpense = 0.0;
 
+	//Read the data from the file and calculate VAT and total
+	while (inData >> category >> amount)
+	{
+		//Calculate VAT and total
+		double vat = amount * VAT_RATE;
+		double total = amount + vat;
+		totalExpense += total;
+
+		//Write the data to the receipt file
+		outData << left << setw(15) << category
+			<< right << setw(10) << amount
+			<< setw(10) << vat
+			<< setw(10) << total << endl;
+	}
+
 
     return 0;
 }
