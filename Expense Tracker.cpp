@@ -26,5 +26,14 @@ int main()
 		return 1;
 	}
 
+	//Output
+	outData << fixed << setprecision(2);
+	outData << left << setw(15) << "Category: " 
+		    << right << setw(10) << "Amount: "
+		    << setw(10) << "VAT: "
+			<< setw(10) << "Total: " << endl;
+	outData << string(45, '-') << endl;
+
+
     return 0;
 }
