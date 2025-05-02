@@ -34,6 +34,9 @@ int main()
 			<< setw(10) << "Total: " << endl;
 	outData << string(45, '-') << endl;
 
+	//Variable to store total expense amount
+	double totalExpense = 0.0;
+
 
     return 0;
 }
