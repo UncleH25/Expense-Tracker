@@ -2,7 +2,7 @@
 A C++ program that reads expense data from a file (`expenses.txt`), calculates VAT and total amounts for each entry, and generates a neatly formatted receipt saved to an output file (`receipt.txt`).
 
 ## 📄 Description
-This program demonstrates file input/output in C++. It reads expense categories and amounts from a file, calculates a 15% VAT for each item, adds it to the amount, and writes a detailed receipt to a separate file. It also calculates the overall total including VAT.
+It reads expense categories and amounts from a file, calculates a 15% VAT for each item, adds it to the amount, and writes a detailed receipt to a separate file. It also calculates the overall total including VAT.
 
 The receipt is formatted into columns using I/O manipulators to ensure clean and readable output.
 
